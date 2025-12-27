@@ -7,7 +7,7 @@ import (
 )
 
 var (
-	format = flag.String("format", "table", "Output formats: table, json, json-indent")
+	format = flag.String("format", "json", "Output formats: json, json-indent, table")
 	simbrs = flag.Bool("simulate-browser", false, "Simulate browser headers when sending http.Get")
 )
 
